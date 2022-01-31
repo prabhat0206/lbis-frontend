@@ -10,7 +10,7 @@ export const navigationProps = [
   },
   {
     id: 44651,
-    name: "Galley",
+    name: "Gallery",
     link: "/gallery",
   },
   ,

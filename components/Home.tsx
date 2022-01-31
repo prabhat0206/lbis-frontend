@@ -3,6 +3,7 @@ import axios from "axios";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
 import "swiper/css";
+import Link from "next/link";
 import "swiper/css/pagination";
 
 interface Gallery {
@@ -265,9 +266,9 @@ export const HomeCom = () => {
         </div>
 
         <div className="col-md-2 mt-4">
-          <a href="/gallery" className="btn btn-secondary">
-            See More
-          </a>
+          <span className="btn btn-secondary">
+            <Link href="/gallery">See More</Link>
+          </span>
         </div>
       </div>
 

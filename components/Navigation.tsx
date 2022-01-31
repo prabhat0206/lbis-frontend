@@ -33,9 +33,9 @@ export const Navigation = () => {
       className="navbar sticky-top navbar-expand-lg navbar-light bg-light"
     >
       <div className="container-fluid  justify-between w-full">
-        <a className="flex items-center" href="/">
+        <Link href="/">
           <Image src="/logo.png" alt="" height={43} width={150} />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"

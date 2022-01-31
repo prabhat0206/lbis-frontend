@@ -1,5 +1,6 @@
 import React from "react";
 import { navigationProps } from "./Navigation";
+import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -26,13 +27,9 @@ export const Footer = () => {
               <h5>Other Links</h5>
               <div className="">
                 {navigationProps.map((link) => (
-                  <a
-                    key={link?.id}
-                    href="/"
-                    className="btn btn-outline-light mb-1"
-                  >
-                    {link?.name}
-                  </a>
+                  <span key={link?.id} className="btn btn-outline-light mb-1">
+                    <Link href={link ? link.link : ""}>{link?.name}</Link>
+                  </span>
                 ))}
               </div>
             </div>

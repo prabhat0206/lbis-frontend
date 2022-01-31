@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import React from "react";
 import axios from "axios";
+import Head from "next/head";
 
 interface Gallery {
   eid: number;
@@ -25,6 +26,9 @@ const Gallery: NextPage = () => {
 
   return (
     <>
+      <Head>
+        <title>Gallery - Lord Buddha International School | GAYA</title>
+      </Head>
       <div className="py-3">
         <div className="container bg-secondary bg-gradient py-5 px-5 rounded-5 text-white">
           <h1>Image Gallery</h1>

@@ -129,8 +129,8 @@ export const HomeCom = () => {
       <div className="container">
         <div className="row featurette">
           <div className="col-md-7 py-5">
-            <h2 className="featurette-heading">About Us</h2>
-            <p className="text-base">
+            <h2 className="featurette-heading text-xl font-bold">About Us</h2>
+            <p className="text-base mt-2">
               Lord Buddha International School is a reputed private school in
               Gaya city established in 2014 by director Yogendra Prasad Verma
               and principal Sweta Kumari (International Chess Player). Our
@@ -138,9 +138,9 @@ export const HomeCom = () => {
               activities. Our school has the main aim to not teach but educate
               students because we make a personality, not an employee.
             </p>
-            <a href="/about-us" className="btn btn-secondary">
-              Read more
-            </a>
+            <span className="btn btn-secondary mt-2">
+              <Link href="/about">Read more</Link>
+            </span>
           </div>
           <div className="col-md-5 py-5 flex justify-center items-center flex-col ">
             <img
@@ -168,7 +168,9 @@ export const HomeCom = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-5">
-              <h2 className="featurette-heading">Latest Notification</h2>
+              <h2 className="featurette-heading text-xl font-bold mb-2">
+                Latest Notification
+              </h2>
             </div>
           </div>
           <div className="swiper mySwiper mt-4">
@@ -227,7 +229,7 @@ export const HomeCom = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-2 mt-5">
-            <h2 className=" text-lg">Gallery</h2>
+            <h2 className=" text-xl font-bold mb-2">Gallery</h2>
           </div>
         </div>
         <div className="container bg-theme bg-gradient py-4 rounded-sm mt-4">
@@ -275,7 +277,9 @@ export const HomeCom = () => {
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-5">
-            <h2 className="featurette-heading">Our Faculties</h2>
+            <h2 className="featurette-heading text-xl font-bold mb-2">
+              Our Faculties
+            </h2>
           </div>
         </div>
         <div className="row left">

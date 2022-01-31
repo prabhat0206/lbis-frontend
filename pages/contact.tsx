@@ -42,7 +42,7 @@ const Contact: NextPage = () => {
           <div className="container py-5">
             <div className="container bg-gradient py-5 px-5 rounded-5 text-black">
               <div>
-                <h1>Contact Us</h1>
+                <h1 className="text-2xl font-bold mb-2">Contact Us</h1>
                 <p>
                   You can reach us by filling out the contact form and we will
                   contact you as soon as possible.

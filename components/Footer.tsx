@@ -67,13 +67,12 @@ export const Footer = () => {
       <footer className="bg-dark" style={{ color: "#fff" }}>
         <div className="container p-2">
           <span>
-            Copyright &copy;
-            <a
-              style={{ color: "#fff" }}
-              href="https://www.instagram.com/encoded_programmer/"
-            >
-              Encoded Programmer ( designer and developer )
-            </a>
+            Copyright &copy; {new Date().getFullYear()} -{" "}
+            <span style={{ color: "#fff" }}>
+              <Link href="https://www.instagram.com/encoded_programmer/">
+                Encoded Programmer ( designer and developer )
+              </Link>
+            </span>
           </span>
         </div>
       </footer>

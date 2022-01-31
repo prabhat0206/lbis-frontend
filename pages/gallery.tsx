@@ -30,8 +30,8 @@ const Gallery: NextPage = () => {
         <title>Gallery - Lord Buddha International School | GAYA</title>
       </Head>
       <div className="py-3">
-        <div className="container bg-secondary bg-gradient py-5 px-5 rounded-5 text-white">
-          <h1>Image Gallery</h1>
+        <div className="container bg-secondary bg-gradient py-5 px-5 rounded-lg text-white">
+          <h1 className="text-2xl font-bold">Image Gallery</h1>
           <p>
             All images are copyright protected and lisenced under Lord Buddha
             International School.

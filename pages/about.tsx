@@ -11,7 +11,7 @@ const About: NextPage = () => {
       <div className="container py-5">
         <div className="container bg-logo bg-blue-500 py-5 px-5 rounded-5 text-white">
           <div>
-            <h1>About Us</h1>
+            <h1 className="text-2xl font-bold mb-2">About Us</h1>
             <p>
               Welcome to Lord Buddha International School, your number one
               source for education for predefined education. We are dedicated to
